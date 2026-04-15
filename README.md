@@ -6,11 +6,12 @@
 
 Based on the project documentation, I implemented and enhanced the following functionalities:
 
-* [cite_start]**Map Provider Integration**: Switched to Microsoft Hybrid Maps to ensure stable tile loading and better visualization[cite: 16, 19].
-* [cite_start]**Traffic Analysis System**: Developed the `calculateTraffic` method to return a map with source and number of routes from each airport[cite: 21].
-* [cite_start]**Filtering Logic**: Excluded airports with zero routes from the visualization to keep the map clean[cite: 20].
-* [cite_start]**Dynamic Marker Visualization**: Implemented custom logic where airport markers are drawn with different colors and sizes based on their specific traffic value[cite: 17, 22].
-* **Advanced User Interactivity**:
+**Map Provider Integration**: Switched to Microsoft Hybrid Maps to ensure stable tile loading and better visualization[cite: 16, 19].
+**Traffic Analysis System**: Developed the `calculateTraffic` method to return a map with source and number of routes from each airport[cite: 21].
+**Filtering Logic**: Excluded airports with zero routes from the visualization to keep the map clean[cite: 20].
+**Dynamic Marker Visualization**: Implemented custom logic where airport markers are drawn with different colors and sizes based on their specific traffic value[cite: 17, 22].
+
+**Advanced User Interactivity**:
     * [cite_start]**Hover Information**: Implemented `mouseMoved` to highlight airport information like name, country, city, and ID[cite: 18, 24].
     * [cite_start]**Click Interaction**: Added `mouseClicked` functionality where clicking an airport shows its specific routes and hides all other airports and routes[cite: 18, 25].
     * [cite_start]**Route Visibility**: Routes are hidden by default and only become visible when the corresponding airport is selected[cite: 26].
